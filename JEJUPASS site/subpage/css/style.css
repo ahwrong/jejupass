@@ -1,0 +1,59 @@
+@charset "UTF-8";
+ul, li {
+  list-style: none;
+}
+
+nav {
+  position: relative;
+}
+
+ul {
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+  height: 60px;
+  margin-right: 10px;
+}
+
+a {
+  line-height: 60px;
+}
+
+.carousel-item.active {
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+}
+
+.text {
+  padding: 5px 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  text-align: center;
+  line-height: 1.6;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  text-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+}
+
+.container .video {
+  vertical-align: middle;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container img {
+  vertical-align: middle;
+  width: 100%;
+  object-fit: cover;
+}

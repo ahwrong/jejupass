@@ -1,0 +1,131 @@
+@charset "UTF-8";
+#main {
+  max-width: 100%;
+  height: 100%;
+}
+
+.mainCont .mainSignature video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.w-100 {
+  margin: 50px auto;
+  background-position: center;
+  height: 20px;
+}
+
+.container > h3 {
+  text-align: center;
+  line-height: 36px;
+  height: 36px;
+  font-size: 21px;
+  color: #333333;
+}
+
+.container .row {
+  justify-content: center;
+  align-items: center;
+}
+
+.container .row .logo {
+  top: 50%;
+  left: 50%;
+  width: 140px;
+  height: 26px;
+  margin-top: -13px;
+  margin-left: -70px;
+  /* background: url(../img/spr_mainicon.png); */
+}
+
+.container h3 {
+  margin-top: 104px;
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 26px;
+  line-height: 1.3;
+  font-family: NanumSquareR;
+  font-weight: 900;
+}
+
+.jumbotron.transparent {
+  background: none;
+}
+
+.jumbotron.pos-mid {
+  padding: 0 2rem;
+}
+
+.jumbotron.right-text {
+  text-align: right;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+.mainTag {
+  display: flex;
+  margin: 40px -8px -8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mainCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+}
+
+.mainCont:first-child {
+  margin-top: 54px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.mainCont .mainIcon {
+  display: flex;
+  justify-content: center;
+  margin: 32px -34px 0;
+}
+
+.mainCon .service {
+  margin-top: 104px;
+  text-align: center;
+}
+
+.service {
+  position: relative;
+  margin-bottom: 32px;
+  font-size: 2.6rem;
+  line-height: 1.3;
+  font-family: NanumSquareR;
+  font-weight: 900;
+  color: #202020;
+}
+
+.mainCont .mainIcon li a {
+  display: flex;
+  width: 96px;
+  height: 96px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #cde0ff;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+
+.mainCont .mainIcon li a:before {
+  content: '';
+  display: block;
+  margin: 32px auto;
+  width: 32px;
+  height: 32px;
+  background-position: -128px 0;
+  background: url("../img/spr_mainicon.png") no-repeat 0 0;
+}
